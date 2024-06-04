@@ -14,6 +14,7 @@
 		213637D42C0E4D2E0009CADE /* BetterRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213637D32C0E4D2E0009CADE /* BetterRestTests.swift */; };
 		213637DE2C0E4D2E0009CADE /* BetterRestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213637DD2C0E4D2E0009CADE /* BetterRestUITests.swift */; };
 		213637E02C0E4D2E0009CADE /* BetterRestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213637DF2C0E4D2E0009CADE /* BetterRestUITestsLaunchTests.swift */; };
+		213637F12C0E77070009CADE /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213637F02C0E77070009CADE /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		213637D92C0E4D2E0009CADE /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213637DD2C0E4D2E0009CADE /* BetterRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITests.swift; sourceTree = "<group>"; };
 		213637DF2C0E4D2E0009CADE /* BetterRestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		213637F02C0E77070009CADE /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				213637C22C0E4D2C0009CADE /* BetterRestApp.swift */,
 				213637C42C0E4D2C0009CADE /* ContentView.swift */,
+				213637F02C0E77070009CADE /* SleepCalculator.mlmodel */,
 				213637C62C0E4D2E0009CADE /* Assets.xcassets */,
 				213637C82C0E4D2E0009CADE /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				213637C52C0E4D2C0009CADE /* ContentView.swift in Sources */,
+				213637F12C0E77070009CADE /* SleepCalculator.mlmodel in Sources */,
 				213637C32C0E4D2C0009CADE /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
